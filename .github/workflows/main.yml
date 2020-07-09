@@ -36,6 +36,7 @@ jobs:
           # deploying surge
     - name: Deploying surge
       run: surge ./ build asaaz_project.surge.sh --token ${{ secrets.MY_TOKEN }}
+      
     
         
         
